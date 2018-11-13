@@ -1,1 +1,1 @@
-This is Bootstrap Responsive Admin Template.
+This is Bootstrap Responsive Admin Template for News Archive Application.

@@ -14,10 +14,13 @@
 		<link href="css/pages/dashboard.css" rel="stylesheet">
 		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 	    <!--[if lt IE 9]>
-	      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	  <![endif]-->
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		<!-- Custom CSS file Include -->
+		<link href="css/left-menu.css" rel="stylesheet">
 	</head>
-
+	
 	<body>
 		<div class="navbar navbar-fixed-top">
 			<div class="navbar-inner">
@@ -59,13 +62,13 @@
 			<!-- /navbar-inner --> 
 		</div>
 		<!-- /navbar -->
-
+		
 		<div class="subnavbar">
 			<div class="subnavbar-inner">
 				<div class="container">
 					<ul class="mainnav">
 						<li class="active"><a href="admin.html"><i class="icon-dashboard"></i><span>Dashboard</span> </a> </li>
-
+						
 						<li class="dropdown">
 							<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
 								<i class="icon-long-arrow-down"></i>
@@ -81,7 +84,7 @@
 								<li><a href="company.html">Company</a></li>
 							</ul>
 						</li>
-
+						
 						<li class="dropdown">
 							<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
 								<i class="icon-long-arrow-down"></i>
@@ -93,7 +96,7 @@
 								<li><a href="news-category.html">News Category</a></li>
 							</ul>
 						</li>
-
+						
 						<li class="dropdown">
 							<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
 								<i class="icon-long-arrow-down"></i>
@@ -107,7 +110,7 @@
 								<li><a href="subbrand.html">Sub Brand</a></li>
 							</ul>
 						</li>
-
+						
 						<li class="dropdown">
 							<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
 								<i class="icon-long-arrow-down"></i>
@@ -119,7 +122,7 @@
 								<li><a href="page-type.html">Page Type</a></li>
 							</ul>
 						</li>
-
+						
 					</ul>
 				</div>
 				<!-- /container --> 
@@ -127,51 +130,64 @@
 			<!-- /subnavbar-inner --> 
 		</div>
 		<!-- /subnavbar -->
-
+		
 		<div class="main">
 			<div class="main-inner">
 				<div class="container">
-
 					<div class="row">
-						<div class="span12">
+						<div class="span3">
 							<div class="widget">
 								<div class="widget-header">
 									<i class="icon-bookmark"></i>
-									<h3>Advertise Setup<i class="icon-long-arrow-right"></i>&nbsp;&nbsp;Brand</h3>
-								</div>
-								<!-- /widget-header -->
+									<h3>Menu</h3>
+								</div>	<!-- /widget -->
 								<div class="widget-content">
-									<div class="shortcuts">
-										<a href="advertise-category.html" class="shortcut">
-											<i class="shortcut-icon icon-file"></i> 
-											<span class="shortcut-label">Advertise Category</span>
-										</a>
-										<a href="advertise-info.html" class="shortcut">
-											<i class="shortcut-icon icon-file"></i>
-											<span class="shortcut-label">Advertise Info</span> 
-										</a>
-										<a href="brand.html" class="shortcut">
-											<i class="shortcut-icon icon-file"></i> 
-											<span class="shortcut-label">Brand</span> 
-										</a>
-										<a href="subbrand.html" class="shortcut"> 
-											<i class="shortcut-icon icon-file"></i>
-											<span class="shortcut-label">Sub Brand</span> 
-										</a> 
-									</div>
-									<!-- /shortcuts --> 
-								</div>
-								<!-- /widget-content --> 
-							</div>
-							<!-- /widget -->
-						</div>
-						<!-- /span12 --> 
-					</div>
-					<!-- /row -->
-          
-					<div class="row">
-
-						<div class="span12">
+									<div class="main-nav">
+										<ul class="main-nav-ul">
+											<li class="has-sub">
+												<a href="#">Media Setup<span class="sub-arrow"></span></a>
+												<ul>
+													<li><a href="media-name.html">Media Name</a></li>
+													<li><a href="publication.html">Publication</a></li>
+													<li><a href="page.html">Page</a></li>
+													<li><a href="parameter.html">Parameter</a></li>
+													<li><a href="products.html">Products</a></li>
+													<li><a href="company.html">Company</a></li>
+												</ul>
+											</li>
+											
+											<li class="has-sub">
+												<a href="#">News Setup<span class="sub-arrow"></span></a>
+												<ul>
+													<li><a href="news-type.html">News Type</a></li>
+													<li><a href="news-category.html">News Category</a></li>
+												</ul>
+											</li>
+											
+											<li class="has-sub">
+												<a href="#">Advertise Setup<span class="sub-arrow"></span></a>
+												<ul>
+													<li><a href="advertise-category.html">Advertise Category</a></li>
+													<li><a href="advertise-info.html">Advertise Info</a></li>
+													<li><a href="brand.html">Brand</a></li>
+													<li><a href="subbrand.html">Sub Brand</a></li>
+												</ul>
+											</li>
+											
+											<li class="has-sub">
+												<a href="#">Tarrif Setup<span class="sub-arrow"></span></a>
+												<ul>
+													<li><a href="placing.html">Placing</a></li>
+													<li><a href="page-type.html">Page Type</a></li>
+												</ul>
+											</li>
+										</ul>
+									</div>	<!-- /main-nav -->
+								</div>	<!-- /widget-content -->
+							</div>	<!-- /widget -->
+						</div>	<!-- /span3 -->
+						
+						<div class="span9">
 							<div class="widget widget-table action-table">
 								<div class="widget-header">
 									<i class="icon-th-list"></i>
@@ -189,7 +205,7 @@
 												<th>Action</th>
 											</tr>
 										</thead>
-
+										
 										<tbody>
 											<tr>
 												<td>01</td>
@@ -202,7 +218,7 @@
 													<a href="" class="btn btn-danger">Delete</a>                          
 												</td>
 											</tr>
-
+											
 											<tr>
 												<td>02</td>
 												<td>LG</td>
@@ -214,7 +230,7 @@
 													<a href="" class="btn btn-danger">Delete</a>                          
 												</td>
 											</tr>
-
+											
 											<tr>
 												<td>03</td>
 												<td>Airtel</td>
@@ -226,7 +242,7 @@
 													<a href="" class="btn btn-danger">Delete</a>                          
 												</td>
 											</tr>
-
+											
 											<tr>
 												<td>04</td>
 												<td>AIUB</td>
@@ -238,7 +254,7 @@
 													<a href="" class="btn btn-danger">Delete</a>                          
 												</td>
 											</tr>
-
+											
 											<tr>
 												<td>05</td>
 												<td>DFBL</td>
@@ -252,20 +268,14 @@
 											</tr>
 										</tbody>
 									</table>
-								</div>
-								<!-- /widget-content --> 
-							</div>
-							<!-- /widget --> 
-						</div>
-						<!-- /span12 -->
+								</div>	<!-- /widget-content --> 
+							</div>	<!-- /widget --> 
+						</div>	<!-- /span12 -->
 					</div> <!-- /row --> 
-				</div>
-				<!-- /container --> 
-			</div>
-			<!-- /main-inner --> 
-		</div>
-		<!-- /main -->
-
+				</div>	<!-- /container --> 
+			</div>	<!-- /main-inner --> 
+		</div>	<!-- /main -->
+		
 		<div class="footer">
 			<div class="footer-inner">
 				<div class="container">
@@ -274,7 +284,7 @@
 							&copy; 2018 All Rights Reserved by <a href="#">Media Source Ltd.</a>
 						</div>
 						<!-- /span6 -->
-
+						
 						<div class="span6" style="text-align: right;">
 							Desinged and Developed By <a>Dew Hunt</a>
 						</div> 
@@ -286,7 +296,7 @@
 			<!-- /footer-inner --> 
 		</div>
 		<!-- /footer --> 
-
+		
 	    <!-- Le javascript ================================================== -->
 	    <!-- Placed at the end of the document so the pages load faster --> 
 	    <script src="js/jquery-1.7.2.min.js"></script> 
@@ -294,7 +304,16 @@
 	    <script src="js/chart.min.js" type="text/javascript"></script> 
 	    <script src="js/bootstrap.js"></script>
 	    <script language="javascript" type="text/javascript" src="js/full-calendar/fullcalendar.min.js"></script>
-
+		
 	    <script src="js/base.js"></script>
+		
+		<!-- Custom JS File Start -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.has-sub').click(function(){
+					$(this).toggleClass('tap');
+				});
+			});
+		</script>
 	</body>
 </html>
