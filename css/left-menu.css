@@ -17,7 +17,7 @@
 
 .left-main-nav a:hover{
 	/*background: lightgray;*/
-	color: green;
+	color: green; 
 	text-transform: uppercase;
 	font-weight: bold;
 	border-bottom: 1px solid black;
