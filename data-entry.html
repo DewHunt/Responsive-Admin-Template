@@ -16,6 +16,9 @@
 	    <!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+
+		<!-- Left Menu CSS File Include -->
+		<link href="css/left-menu.css" rel="stylesheet">
 	</head>
 	
 	<body>
@@ -79,38 +82,26 @@
 			<div class="main-inner">
 				<div class="container">
 					<div class="row">
-						<div class="span12">
+						<div class="span3">
 							<div class="widget">
 								<div class="widget-header">
-									<i class="icon-bookmark"></i>
-									<h3>Important Links</h3>
-								</div>
-								<!-- /widget-header -->
+									<i class="icon-list-alt"></i>
+									<h3>Menu</h3>
+								</div>  <!-- /widget -->
 								<div class="widget-content">
-									<div class="shortcuts">
-										<a href="news-entry.html" class="shortcut">
-											<i class="shortcut-icon icon-file"></i> 
-											<span class="shortcut-label">News Entry</span>
-										</a>
-										<a href="advertise-entry.html" class="shortcut">
-											<i class="shortcut-icon icon-file"></i> 
-											<span class="shortcut-label">Advertise Entry</span> 
-										</a> 
-									</div>
-									<!-- /shortcuts --> 
-								</div>
-								<!-- /widget-content --> 
-							</div>
-							<!-- /widget -->
-						</div>
-						<!-- /span6 -->
-					</div> <!-- /row -->
-				</div>
-				<!-- /container --> 
-			</div>
-			<!-- /main-inner --> 
-		</div>
-		<!-- /main -->
+									<div class="left-main-nav">
+										<ul class="left-main-nav-ul">
+											<li><a href="advertise-entry.html">Advertise Entry</a></li>
+											<li><a href="news-entry.html">News Entry</a></li>
+										</ul>
+									</div>  <!-- /main-nav -->
+								</div>  <!-- /widget-content -->
+							</div>  <!-- /widget -->
+						</div>  <!-- /span3 -->
+					</div>	<!-- /row -->
+				</div>	<!-- /container --> 
+			</div>	<!-- /main-inner --> 
+		</div>	<!-- /main -->
 		
 		<div class="footer">
 			<div class="footer-inner">
@@ -142,5 +133,14 @@
 	    <script language="javascript" type="text/javascript" src="js/full-calendar/fullcalendar.min.js"></script>
 		
 	    <script src="js/base.js"></script>
+		
+		<!-- Custom JS File Start -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.has-sub').click(function(){
+					$(this).toggleClass('tap');
+				});
+			});
+		</script>
 	</body>
 </html>
